@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[HDBFLATPREMIUMS](
+	[HDBFlatType] [varchar](10) NOT NULL,
+	[SumInsured] [numeric](10, 2) NULL,
+	[PremiumAmount] [numeric](7, 2) NULL,
+	[PremiumAmountGST] [numeric](2, 2) NULL,
+	[PremiumTotalAmount] [numeric](7, 2) NULL,
+ CONSTRAINT [PK_HDBFLATPREMIUMS] PRIMARY KEY CLUSTERED 
+(
+	[HDBFlatType] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

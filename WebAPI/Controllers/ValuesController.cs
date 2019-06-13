@@ -1,20 +1,27 @@
-﻿using System;
+﻿using HDBLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
 namespace WebAPI.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [EnableCorsAttribute("*", "*", "*")]
+    [RequireHttps]
+    [BasicAuthentication]
     public class ValuesController : ApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
         {
+            //How to get username from authenticated API Caller
+            var username = Thread.CurrentPrincipal.Identity.Name;
+
             return new string[] { "value1", "value2" };
         }
 

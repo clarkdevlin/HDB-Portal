@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HDBLibrary
+namespace HDBLibrary.Models
 {
-    public class Class1
+    public class HDBForTransamission: HDB
     {
+        public DateTime? EntryDate { get; set; }
     }
 }

@@ -15,8 +15,8 @@ namespace WebAPI
         {
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
-            config.SuppressDefaultHostAuthentication();
-            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+            //config.SuppressDefaultHostAuthentication();
+            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -30,6 +30,11 @@ namespace WebAPI
             //EnableCorsAttribute cors = new EnableCorsAttribute("https://isp.ecics.com.sg,http://localhost:4321","Accept,Content","GET,POST")
             //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*"); //this will allow any webiste of any header and of any method
             config.EnableCors();
+
+            config.Filters.Add(new RequireHttpsAttribute());
+
+            //Apply Basic Authentican globaly
+            //config.Filters.Add(new BasicAuthenticationAttribute());
         }
     }
 }

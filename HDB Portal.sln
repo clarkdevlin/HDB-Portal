@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDBLibrary", "HDBLibrary\HDBLibrary.csproj", "{EDDCB4FE-64B7-44B3-944A-B63F206325D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDB Trasnsfer File Processor", "HDB Trasnsfer File Processor\HDB Trasnsfer File Processor.csproj", "{AA5C5EE0-2A75-4687-AC42-AF15335A6D51}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "HDBDB", "HDBDB\HDBDB.sqlproj", "{88D80FAD-309E-4A74-A557-D36E16C204EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityPasswordHasher", "IdentityPasswordHasher\IdentityPasswordHasher.csproj", "{9E3E4AAE-3BDC-4153-AB9C-DBC568E792A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGatewayTester", "PaymentGatewayTester\PaymentGatewayTester.csproj", "{FD38ACA1-A36E-4ADD-96B6-CB4A26F171DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,24 @@ Global
 		{EDDCB4FE-64B7-44B3-944A-B63F206325D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDDCB4FE-64B7-44B3-944A-B63F206325D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDDCB4FE-64B7-44B3-944A-B63F206325D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5C5EE0-2A75-4687-AC42-AF15335A6D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5C5EE0-2A75-4687-AC42-AF15335A6D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5C5EE0-2A75-4687-AC42-AF15335A6D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5C5EE0-2A75-4687-AC42-AF15335A6D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D80FAD-309E-4A74-A557-D36E16C204EA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9E3E4AAE-3BDC-4153-AB9C-DBC568E792A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3E4AAE-3BDC-4153-AB9C-DBC568E792A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3E4AAE-3BDC-4153-AB9C-DBC568E792A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3E4AAE-3BDC-4153-AB9C-DBC568E792A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD38ACA1-A36E-4ADD-96B6-CB4A26F171DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD38ACA1-A36E-4ADD-96B6-CB4A26F171DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD38ACA1-A36E-4ADD-96B6-CB4A26F171DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD38ACA1-A36E-4ADD-96B6-CB4A26F171DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

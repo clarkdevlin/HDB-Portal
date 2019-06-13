@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8f0fceb1-826f-41dc-9c0c-53e8f553c06d" ChangeDateTime="05/30/2019 05:27:43">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TransactionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9599b60-f237-4af1-bdc9-40b5e2b08f6e" ChangeDateTime="05/30/2019 05:29:03">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[TransactionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HDBReferenceNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="acb9ff52-6de6-45dd-8408-933e60f08204" ChangeDateTime="05/30/2019 05:29:19">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[InsuranceEffectiveDatge]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InsuranceEffectiveDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1afdb199-acf6-4311-aee3-693a1fa33a27" ChangeDateTime="05/30/2019 05:37:08">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[TransactionDatge]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TransactionDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4af87710-b98b-4811-b854-d769851cd63c" ChangeDateTime="05/30/2019 05:40:22">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[WithHomeContents]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HomeContents" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e3004f37-6f76-4fa3-979c-b72640634ff0" ChangeDateTime="05/31/2019 15:18:39">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[AddOnPremiumAmount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AddonPremiumAmount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="90e50820-93fa-4a1e-88ee-addad08e342c" ChangeDateTime="05/31/2019 15:18:42">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[AddOnPremiumAmountGST]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AddonPremiumAmountGST" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b2a08ea5-2004-49d7-862a-b97a4fcc2302" ChangeDateTime="05/31/2019 15:18:54">
+    <Property Name="ElementName" Value="[dbo].[HDBMASTER].[AddOnPremiumAmount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HDBMASTER]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AddonPremiumAmount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="90ec7e8f-dd04-46ff-9585-89737ab9eb8d" ChangeDateTime="05/31/2019 15:19:00">
+    <Property Name="ElementName" Value="[dbo].[HDBMASTER].[AddOnPremiumAmountGST]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HDBMASTER]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AddonOnPremiumAmountGST" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bfaaa49a-a64c-4965-aa3e-d89d5884267a" ChangeDateTime="05/31/2019 15:19:03">
+    <Property Name="ElementName" Value="[dbo].[HDBMASTER].[AddonOnPremiumAmountGST]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[HDBMASTER]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AddonPremiumAmountGST" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="043d80fa-8966-4641-abdf-b55ff367a4bc" ChangeDateTime="05/31/2019 15:49:32">
+    <Property Name="ElementName" Value="[dbo].[SERIES].[Prefix]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SERIES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Format" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9d0637d5-6910-4218-88a9-93efbb5eeea0" ChangeDateTime="05/31/2019 15:51:00">
+    <Property Name="ElementName" Value="[dbo].[SERIES].[Format]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SERIES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Prefix" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c92b410-ea3e-40a0-a6b0-003bd40c384c" ChangeDateTime="05/31/2019 15:52:07">
+    <Property Name="ElementName" Value="[dbo].[SERIES].[CurrentNo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[SERIES]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Length" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc82949b-3205-4fb6-88ef-358383ea7ab4" ChangeDateTime="06/01/2019 06:20:22">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONS].[CertificateNo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PolicyNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f7681132-9349-4d57-9ca3-911a9a49e997" ChangeDateTime="06/01/2019 16:45:44">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSPOLICYHOLDER].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSPOLICYHOLDER]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TransactionNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="444f433f-ae19-433b-92ab-d5e877a32840" ChangeDateTime="06/01/2019 16:52:51">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSADDONS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSADDONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TransactionNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="41542676-b044-4aad-aa0a-9ff77aae0894" ChangeDateTime="06/03/2019 00:59:11">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSADDONS].[SumInsured]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSADDONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalSumInsured" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57658549-cc4e-4b2d-bb62-489705c9c76c" ChangeDateTime="06/03/2019 01:01:16">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSADDONS].[EffectiveDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSADDONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InsuranceEffectiveDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9d4ad63-97f1-4307-97c2-f85dbbf2c811" ChangeDateTime="06/03/2019 01:01:20">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSADDONS].[Term]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSADDONS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="InusranceTerm" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c8ec2d33-c25e-44c1-bd30-11501cd9cb6f" ChangeDateTime="06/03/2019 01:55:42">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSPOLICYHOLDER].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSPOLICYHOLDER]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TransactionNo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4da020b8-258d-4c8b-9939-bdfd05490987" ChangeDateTime="06/11/2019 01:36:59">
+    <Property Name="ElementName" Value="[dbo].[TRANSACTIONSHC].[PromoDiscountAmount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TRANSACTIONSHC]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PremiumDiscountAmount" />
+  </Operation>
+</Operations>
